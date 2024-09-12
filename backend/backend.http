@@ -1,0 +1,14 @@
+@back_HostAddress = https://localhost:7059
+
+GET {{back_HostAddress}}/Test
+
+###
+
+POST {{back_HostAddress}}/Test
+Content-Type: application/json
+
+{
+  "name": "string"
+}
+
+###
